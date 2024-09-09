@@ -7,7 +7,6 @@ display_menu() {
     echo "2. Windows Server 2019"
     echo "3. Windows Server 2022"
     echo "4. Windows 10"
-    echo "5. Windows 11"
     read -p "Enter your choice: " choice
 }
 
@@ -48,14 +47,8 @@ case $choice in
     4)
         # Windows 10
         img_file="windows10.img"
-        iso_link="https://software-download.microsoft.com/sg/Win10_21H2_English_x64.iso"
+        iso_link="https://download1531.mediafire.com/yqbllrcit5dgJKSG7RjWu5Vv-7rkhHAww_pXLuJo4KvCVSlpt0q29ZPQ-0VCqwO7CWJcJXsEz2JwAXpvvs2OCyijzLrkmNSUbpFTdmxmm2JGMPNXIhQlYhO1hBGzbznADkzXrSypT8zt1YD-6WIUTsV6yXR1MvnwIBPSfesBlmsz5g/lob6g9knvaew7f3/win10_21H2.img"
         iso_file="windows10.iso"
-        ;;
-    5)
-        # Windows 11
-        img_file="windows11.img"
-        iso_link="https://software-download.microsoft.com/sg/Win11_English_x64.iso"
-        iso_file="windows11.iso"
         ;;
     *)
         echo "Invalid choice. Exiting."
