@@ -7,6 +7,7 @@ display_menu() {
     echo "2. Windows Server 2019"
     echo "3. Windows Server 2022"
     echo "4. Windows 10"
+    echo "5. Windows 11"
     read -p "Enter your choice: " choice
 }
 
@@ -47,8 +48,14 @@ case $choice in
     4)
         # Windows 10
         img_file="windows10.img"
-        iso_link="https://download1531.mediafire.com/yqbllrcit5dgJKSG7RjWu5Vv-7rkhHAww_pXLuJo4KvCVSlpt0q29ZPQ-0VCqwO7CWJcJXsEz2JwAXpvvs2OCyijzLrkmNSUbpFTdmxmm2JGMPNXIhQlYhO1hBGzbznADkzXrSypT8zt1YD-6WIUTsV6yXR1MvnwIBPSfesBlmsz5g/lob6g9knvaew7f3/win10_21H2.img"
+        iso_link="https://download1322.mediafire.com/p7ogpsuhh3ugjF5fYWk3qJu2Je6_eHqBfJ6YMrfHMcGxBg46MPiCcxeKSRe6pCJ2Vi9_xXD4gaf18IYbVW3ZG9QnOEIYXG3QSJTSzpcU6_Ccw4f3zfspvgIr6QUHwVNVO2GIKm3p6h4eBIBKBnlIQ_fHD1m92WaI_RtiXpeAfIuCQUao/4q64m77dxys54kf/WIN10.PRO.AIO.U18.X64.%28WPE%29.ISO"
         iso_file="windows10.iso"
+        ;;
+    5)
+        # Windows 11
+        img_file="windows11.img"
+        iso_link="https://download1324.mediafire.com/q82b4g566mtgTx7q_TLPfJOtioNF91punW4XW8nDuTzm4dVknw-uXCUmvbasVb7y3OjwUr2Bz7PnXfhtg0Czdov-xZcgOLHvmn0HS4d-oH0DRZiyBDfUm8lned8X5Y_N3AANfHdDZj1EhTHjQOsP9F1ImUvK2BzhMRI031avQ_W3p8wu/aisvgelvpjj1gul/WIN11.PRO.22H2.U18.X64.%28WPE%2B%29.ISO"
+        iso_file="windows11.iso"
         ;;
     *)
         echo "Invalid choice. Exiting."
