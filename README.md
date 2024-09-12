@@ -99,8 +99,3 @@ wget -O- --no-check-certificate LINK | gunzip | dd of=/dev/vda
 ### Catatan Penting:
 - Pastikan Anda mengganti placeholder `xxxx` dengan versi Windows yang benar.
 - Jangan lupa untuk mengganti `LINK` dengan URL file Anda yang sebenarnya.
-
-Dengan mengikuti langkah-langkah di atas, Anda dapat menginstal dan menjalankan Windows Server pada droplet baru menggunakan QEMU.
-```
-
-README di atas sudah dioptimalkan dengan langkah-langkah yang jelas dan mudah diikuti. Anda bisa langsung menyalinnya untuk digunakan pada proyek Anda di GitHub.
