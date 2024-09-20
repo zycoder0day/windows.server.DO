@@ -48,7 +48,7 @@ case $choice in
     4)
         # Windows 10
         img_file="windows10.img"
-        iso_link="https://download1322.mediafire.com/p7ogpsuhh3ugjF5fYWk3qJu2Je6_eHqBfJ6YMrfHMcGxBg46MPiCcxeKSRe6pCJ2Vi9_xXD4gaf18IYbVW3ZG9QnOEIYXG3QSJTSzpcU6_Ccw4f3zfspvgIr6QUHwVNVO2GIKm3p6h4eBIBKBnlIQ_fHD1m92WaI_RtiXpeAfIuCQUao/4q64m77dxys54kf/WIN10.PRO.AIO.U18.X64.%28WPE%29.ISO"
+        iso_link="https://download1322.mediafire.com/er23mw34thpgArV9sjv6pYJYdTK47g6yrHPfdwTuOg0hKHwi1n6m51o8R4FnPWefquRXU08sBrUV5aZ3eDbi18AxaPvItAjTPk85EAFguTJnvm__ud0T7PgJOd_2LhwJshsGV-lTF_XH8LFpfrHuL6zKfNU9z8hC9fisbOoELOXp_g/4q64m77dxys54kf/WIN10.PRO.AIO.U18.X64.%28WPE%29.ISO"
         iso_file="windows10.iso"
         ;;
     5)
