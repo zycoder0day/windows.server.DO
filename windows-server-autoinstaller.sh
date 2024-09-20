@@ -54,7 +54,7 @@ case $choice in
     5)
         # Windows 11
         img_file="windows11.img"
-        iso_link="https://download1324.mediafire.com/q82b4g566mtgTx7q_TLPfJOtioNF91punW4XW8nDuTzm4dVknw-uXCUmvbasVb7y3OjwUr2Bz7PnXfhtg0Czdov-xZcgOLHvmn0HS4d-oH0DRZiyBDfUm8lned8X5Y_N3AANfHdDZj1EhTHjQOsP9F1ImUvK2BzhMRI031avQ_W3p8wu/aisvgelvpjj1gul/WIN11.PRO.22H2.U18.X64.%28WPE%2B%29.ISO"
+        iso_link="https://archive.org/download/ghost-spectre-windows-11/WIN11.PRO.21H2.SUPERLITE%2BCOMPACT.X64.%28WPE%29%20%281%29.ISO"
         iso_file="windows11.iso"
         ;;
     *)
