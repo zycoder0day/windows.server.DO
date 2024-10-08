@@ -48,13 +48,13 @@ case $choice in
     4)
         # Windows 10
         img_file="windows10.img"
-        iso_link="https://download1322.mediafire.com/er23mw34thpgArV9sjv6pYJYdTK47g6yrHPfdwTuOg0hKHwi1n6m51o8R4FnPWefquRXU08sBrUV5aZ3eDbi18AxaPvItAjTPk85EAFguTJnvm__ud0T7PgJOd_2LhwJshsGV-lTF_XH8LFpfrHuL6zKfNU9z8hC9fisbOoELOXp_g/4q64m77dxys54kf/WIN10.PRO.AIO.U18.X64.%28WPE%29.ISO"
+        iso_link="http://139.59.225.131/WIN10.ISO"
         iso_file="windows10.iso"
         ;;
     5)
         # Windows 11
         img_file="windows11.img"
-        iso_link="https://archive.org/download/ghost-spectre-windows-11/WIN11.PRO.21H2.SUPERLITE%2BCOMPACT.X64.%28WPE%29%20%281%29.ISO"
+        iso_link="http://139.59.225.131/WIN11.ISO"
         iso_file="windows11.iso"
         ;;
     *)
