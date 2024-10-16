@@ -8,6 +8,7 @@ display_menu() {
     echo "3. Windows Server 2022"
     echo "4. Windows 10"
     echo "5. Windows 11"
+    echo "6. Windows 1021h2"
     read -p "Enter your choice: " choice
 }
 
@@ -56,6 +57,12 @@ case $choice in
         img_file="windows11.img"
         iso_link="http://139.59.225.131/WIN11.ISO"
         iso_file="windows11.iso"
+        ;;
+    6)
+        # Windows 1021h2
+        img_file="windows1021h2.img"
+        iso_link="http://139.59.225.131/win1021H2.img"
+        iso_file="windows1021h2.iso"
         ;;
     *)
         echo "Invalid choice. Exiting."
