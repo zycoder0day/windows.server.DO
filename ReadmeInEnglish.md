@@ -7,7 +7,7 @@ Run the following command to download the installer:
 wget https://raw.githubusercontent.com/emuhib/windows.server.DO/main/windows-server-autoinstaller.sh
 
 
-#### 2. Grant Execution Permission to the File
+### 2. Grant Execution Permission to the File
 After downloading, give the file permission to be executed:
 
 bash
