@@ -95,5 +95,5 @@ wget -O- --no-check-certificate LINK | gunzip | dd of=/dev/vda
 ```
 
 ### Important Notes:
---Make sure to replace the placeholder xxxx with the correct Windows version.
---Don’t forget to replace LINK with the actual URL of your file.
+- Make sure to replace the placeholder xxxx with the correct Windows version.
+- Don’t forget to replace LINK with the actual URL of your file.
