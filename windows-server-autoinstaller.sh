@@ -60,9 +60,9 @@ case $choice in
         ;;
     6)
         # Windows 1021h2
-        img_file="windows1124h2.img"
-        iso_link="https://download1334.mediafire.com/szraefg2y3agPhSqXR6GBcDd8_zDoFY9qAuj2Sv3PzSt49oga70GD9TzTvJ_p4zQv91mwmXPKomUl70yG0WTMUuuuSLiWelVuKEdVW5T_5bgzgsvPyu2jFaDFuyCRoDya2HKpl90Mw8H86V1EQiw2H91S2XHF-C87w8II62zumjjQg/a00mcg4hipm8hgm/Win11_24H2_EnglishInternational_x64.iso"
-        iso_file="windows1124h2.iso"
+        img_file="windows1022h2.img"
+        iso_link="https://software.download.prss.microsoft.com/dbazure/Win10_22H2_English_x64v1.iso?t=911ac300-8738-49a2-95a0-2bbedeb18b64&P1=1737691074&P2=601&P3=2&P4=pIIo%2btrP0cRc%2ffho9v6SAd5sKSZ9ovhTsajca6umSHfv%2fHq4Xxerz8h5hPuSWYhXnSJ12VVdYoyYB0Zs7w3timnM3uKXWV9aHWCN%2bjv9zd5HHnOOUBpSgWIWRnsb%2bDYYXpgbrNKXHCyXuR5H0pmQJrqpybvWxVYHAjKACd1nnGZXw89eDyzGUybs9K7yrPngr0CfdAyaeAQG9LbK5CNnACG2925gQYgbuTPrQMMTlDX3zEi0WdV82WI%2bs7dBXBBOznnNAXfGUYZQqXUFUhnPxqeI4zquH%2b7ON2LDdmA6tPZlaBrCo%2bNZG%2bGaGwXWzAxtUsXIUS%2f3RJF8KkZ1E3YJuw%3d%3d"
+        iso_file="windows1022h2.iso"
         ;;
     *)
         echo "Invalid choice. Exiting."
