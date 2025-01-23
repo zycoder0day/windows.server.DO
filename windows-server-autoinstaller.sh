@@ -8,7 +8,7 @@ display_menu() {
     echo "3. Windows Server 2022"
     echo "4. Windows 10"
     echo "5. Windows 11"
-    echo "6. Windows 1021h2"
+    echo "6. Windows 1124h2"
     read -p "Enter your choice: " choice
 }
 
