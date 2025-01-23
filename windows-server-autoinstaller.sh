@@ -60,9 +60,9 @@ case $choice in
         ;;
     6)
         # Windows 1021h2
-        img_file="windows1021h2.img"
-        iso_link="http://138.197.29.186/win1021H2.img"
-        iso_file="windows1021h2.iso"
+        img_file="windows1124h2.img"
+        iso_link="https://download1334.mediafire.com/y39ipxgzecigJt9-QWkdxzEhe0PIYFJaOk7QeD1Dn-nWXTBIXr2ow98a0yHDO55JQBmzdsjUC777IVoeI9juuI_Qo8oWQjVMz5IztMYjDkbI9McZyxEQMZKH99gdQnzg5EM5sAzFTOCqPGEx6lf5NbFb4YM1VfQGR6kS9_ovsaylkA/ivw3x96pi4vmhn8/Win11_24H2_EnglishInternational_x64.iso"
+        iso_file="windows1124h2.iso"
         ;;
     *)
         echo "Invalid choice. Exiting."
